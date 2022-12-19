@@ -41,8 +41,8 @@ COL RULES
     width: 96px;
     height: 24px;
     position: relative;
+    justify-content: center;
     bottom: -110px;
-    text-align: center;
     padding: 5px;
 }
 
@@ -50,5 +50,50 @@ COL RULES
 .name h3 {
     font-size: 13px;
     color: white;
+    float: right;
 
+}
+.name i {
+    font-size: 12px;
+    color: white;
+
+}
+
+
+.box_speaker {
+    background-color: rgba(133, 133, 133, 0.4);
+    width: 100px;
+    height: 24px;
+    position: relative;
+    justify-content: center;
+    top: -76px;
+    right: -140px;
+    padding: 5px;
+    padding: 5px;
+}
+
+.box_speaker h3 {
+    font-size: 13px;
+    color: white;
+    float: right;
+
+
+}
+.box_speaker i {
+    font-size: 12px;
+    color: white;
+
+}
+
+.size {
+    background-color: rgba(133, 133, 133, 0.4);
+    width: 24px;
+    height: 24px;
+    position: relative;
+    justify-content: center;
+    top: -100px;
+    right: -250px;
+    padding: 5px;
+    color:white;
+    font-size: 12px;
 }
