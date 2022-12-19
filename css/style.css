@@ -35,3 +35,20 @@ COL RULES
     flex-direction: row;
     background-image: url("https://picsum.photos/250/130");
 }
+
+.name {
+    background-color: rgba(133, 133, 133, 0.4);
+    width: 96px;
+    height: 24px;
+    position: relative;
+    bottom: -110px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.name h3 {
+    font-size: 13px;
+    color: white;
+
+}
