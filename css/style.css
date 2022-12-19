@@ -18,9 +18,20 @@ ROW RULES
 ****/
 
 .row {
-    background-color: blue;
     width: 1820px;
     height: 130px;
-    border: 2px dashed red;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/**********
+COL RULES
+****/
+
+.col {
+    width: 250px;
+    height: 130px;
+    flex-direction: row;
+    background-image: url("https://picsum.photos/250/130");
 }
